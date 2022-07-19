@@ -15,8 +15,8 @@ public class PrimeController {
     }
 
     @GetMapping()
-    public int test(@RequestParam int start,
-                    @RequestParam int end) {
+    public int CalculatePrime(@RequestParam int start,
+                              @RequestParam int end) {
         return primeService.primeCalculations(start, end);
     }
 }
