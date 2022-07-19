@@ -1,4 +1,6 @@
-# API created to calculation primes number in given compartment.
+# PrimesCalculation
+
+API created to calculation primes number in given compartment.
 
 Example:
 Running app and use Postman to send
